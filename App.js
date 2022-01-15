@@ -68,7 +68,7 @@ export default function App() {
   };
 
   const getFood = () => {
-    const requestURL = `${HOST}?apiKey=${API_FOOD_KEY}&thisYear=2017&thisMonth=11`;
+    const requestURL = `${HOST}?apiKey=${API_FOOD_KEY}&thisYear=2017&thisMonth=12`;
     fetch(requestURL)
       .then((response) => response.text())
       .then((resText) => {
